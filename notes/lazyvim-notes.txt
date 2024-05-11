@@ -10,6 +10,10 @@ Notes:
 - mason is the package manager (<space>cm)
 - `lazy.lua` manages plugins
 - telescope: (<space>ff)
+- new terminal (<space>ft)
+- navigation
+-- open side pane (<space>e)
+--- ? brings up available commands, like renaming (r) or adding a new file (a)
 
 - programming features
 -- rename variable (<space>cr) 
@@ -26,15 +30,24 @@ Notes:
 --- ? gets you more help
 -- lazygit (<space>gg)
 
-
 - split panes
 -- horizontal (<space>|)
 -- vertical (<space>-)
 -- navigate with (<C-k/j/h/l)
 
 - help (<space>sh)
--- search keymaps ()
+-- search keymaps (<space>sk)
 
 - ui (<space>u -> another letter)
 -- toggle relative line numbers (<space>uL)
+
+- configuration changes
+-- keymaps.lua for adding custom keymaps (<space>whatever)
+-- add plugins to the `plugins` directory and lazy vim picks them up, you install them with lazy 
+
+
+
+
+
+
 
