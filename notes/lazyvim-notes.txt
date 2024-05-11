@@ -7,4 +7,34 @@ Resources:
 
 Notes:
 
+- mason is the package manager (<space>cm)
+- `lazy.lua` manages plugins
+- telescope: (<space>ff)
+
+- programming features
+-- rename variable (<space>cr) 
+-- search for text (<space>sg) search-grep
+-- search for errors/diagnostics (<space>xx) 
+-- code actions, such as importing something new (<space>ca) code-action
+-- Change buffers 
+--- via telescope (<space>fb)
+--- toggle ([b and ]b)
+--- use the mouse to click
+-- autocomplete
+--- snippets (fill in stops on the way then <tab>), keywords, variables
+-- replace in files using spectre (<space>sr)
+--- ? gets you more help
+-- lazygit (<space>gg)
+
+
+- split panes
+-- horizontal (<space>|)
+-- vertical (<space>-)
+-- navigate with (<C-k/j/h/l)
+
+- help (<space>sh)
+-- search keymaps ()
+
+- ui (<space>u -> another letter)
+-- toggle relative line numbers (<space>uL)
 
