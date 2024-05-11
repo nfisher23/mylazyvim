@@ -1,0 +1,8 @@
+Resources:
+
+- zero to ide: https://www.youtube.com/watch?v=N93cTbtLCIM
+- copilot: https://www.youtube.com/watch?v=eMnZBaOs4vM
+
+- debugging in neovim: https://www.youtube.com/watch?v=0moS8UHupGc
+Notes:
+
