@@ -15,19 +15,19 @@ vim.api.nvim_set_keymap("n", "<F7>", '<Cmd>lua require"dap".step_into()<CR>', { 
 vim.api.nvim_set_keymap("n", "<F10>", '<Cmd>lua require"dap".step_out()<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap(
   "n",
-  "<leader>b",
+  "<leader>db",
   '<Cmd>lua require"dap".toggle_breakpoint()<CR>',
   { noremap = true, silent = true }
 )
 vim.api.nvim_set_keymap(
   "n",
-  "<leader>B",
+  "<leader>dB",
   '<Cmd>lua require"dap".set_breakpoint(vim.fn.input("Breakpoint condition: "))<CR>',
   { noremap = true, silent = true, desc = "Set a conditional breakpoint" }
 )
 vim.api.nvim_set_keymap(
   "n",
-  "<leader>lp",
+  "<leader>dp",
   '<Cmd>lua require"dap".set_breakpoint(nil, nil, vim.fn.input("Log point message: "))<CR>',
   {
     noremap = true,
@@ -37,3 +37,10 @@ vim.api.nvim_set_keymap(
 )
 vim.api.nvim_set_keymap("n", "<leader>dr", '<Cmd>lua require"dap".repl.open()<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<leader>dl", '<Cmd>lua require"dap".run_last()<CR>', { noremap = true, silent = true })
+
+vim.api.nvim_set_keymap(
+  "n",
+  "<leader>dv",
+  '<cmd>lua require("dapui").eval(vim.fn.input("Expression: "))<CR>',
+  { noremap = true, silent = true }
+)
